@@ -1,0 +1,36 @@
+COMP106 Assignment 4
+
+************************
+Compiling and Executing:
+javac Main.java
+java Main
+
+************************
+Features:
+
+StatePanel:
+1. Coordinates of selected cell
+2. maximum combo chain size
+3. score and level
+
+ControlPanel:
+1. (re)start a game
+2. cheat and add 500 points!
+3. exit the game
+
+Sound:
+1. selection sound
+2. falling sound
+
+Animation:
+1. swapping animation
+2. cascading animation
+
+************************
+Program Design:
+ 
+   The architecture of this program differs little from the 
+previous assignment. The only addition is the Animation class to
+help implement swapping and cascading of jewels.
+
+
