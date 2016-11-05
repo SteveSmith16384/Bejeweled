@@ -4,11 +4,13 @@ import java.awt.event.MouseEvent;
  this class monitors user input on the game board
  */
 public class MouseListener extends MouseInputAdapter {
+	
     private Game gamePanel;
     
     public MouseListener(Game gamePanel){
         this.gamePanel = gamePanel;
     }
+    
     public void mouseClicked (MouseEvent e){
       int col = (e.getX()-240)/65;
       int row = (e.getY()-40)/65;
